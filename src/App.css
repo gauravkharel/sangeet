@@ -1,5 +1,40 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #121212;
+}
+
+.app{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* .navbar{
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  height: auto;
+  display: flex;
+  background-color: black;
+
+} */
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+.music-player {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  /* Add additional styling properties as needed */
 }
